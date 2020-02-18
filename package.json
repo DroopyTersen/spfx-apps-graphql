@@ -7,6 +7,9 @@
     "node": ">=0.10.0"
   },
   "scripts": {
+        "package": "powershell tasks/package.ps1",
+        "deploy:dev": "powershell tasks/deployDev.ps1",
+        "cloneTemplates": "git clone https://skyline.visualstudio.com/Skyline-Portals-Reusables/_git/hygen-templates _templates",
     "build": "gulp bundle",
     "clean": "gulp clean",
     "test": "gulp test",
@@ -25,9 +28,12 @@
     "@types/react": "16.8.8",
     "@types/react-dom": "16.8.3",
     "@types/webpack-env": "1.13.1",
+    "date-fns": "^2.9.0",
     "office-ui-fabric-react": "^6.189.2",
     "react": "16.8.5",
-    "react-dom": "16.8.5"
+    "react-dom": "16.8.5",
+    "spscript": "^4.2.0",
+    "styled-components": "^5.0.1"
   },
   "resolutions": {
     "@types/react": "16.8.8"

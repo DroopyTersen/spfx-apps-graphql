@@ -1,0 +1,22 @@
+
+{
+    "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+    "id": "24be4f04-56a3-43cf-8df5-fd1765c9a5b8",
+    "alias": "ExampleWebPart",
+    "componentType": "WebPart",
+    "version": "*",
+    "manifestVersion": 2,
+    "supportsThemeVariants": true,
+    "requiresCustomScript": false,
+    "preconfiguredEntries": [{
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Other" },
+      "title": { "default": "Example" },
+      "description": { "default": "Example description" },
+      "officeFabricIconFontName": "Vacation",
+      "properties": {
+        "title": "Example"
+      }
+    }]
+  }
+  
