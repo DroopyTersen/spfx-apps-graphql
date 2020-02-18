@@ -9,6 +9,7 @@
   "scripts": {
     "package": "powershell tasks/package.ps1",
     "deploy:dev": "powershell tasks/deployDev.ps1",
+    "start": "gulp serve",
     "cloneTemplates": "git clone https://skyline.visualstudio.com/Skyline-Portals-Reusables/_git/hygen-templates _templates",
     "build": "gulp bundle",
     "clean": "gulp clean",
