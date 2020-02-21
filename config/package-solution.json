@@ -1,14 +1,14 @@
 {
 	"$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
 	"solution": {
-		"name": "spfx-project-template SPFx Package",
-		"id": "6c8d1d9f-9371-4ff6-b5dc-997b2cba4afd",
+		"name": "app-packages-graphql SPFx Solution",
+		"id": "8326192c-2088-46d5-87f7-b16c3c220642",
 		"version": "1.0.0.0",
 		"includeClientSideAssets": true,
 		"skipFeatureDeployment": true,
 		"isDomainIsolated": false
 	},
 	"paths": {
-		"zippedPackage": "solution/spfx-project-template.sppkg"
+		"zippedPackage": "solution/app-packages-graphql.sppkg"
 	}
 }
